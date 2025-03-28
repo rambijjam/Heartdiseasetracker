@@ -1,14 +1,7 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #f4f4f4;
+body{
+    width: 50vw;
+    margin: auto;
 }
-
 .container {
     background-color: white;
     padding: 20px;
@@ -20,13 +13,20 @@ h1 {
     text-align: center;
 }
 
+label{
+    font-size: 25px;
+
+}
+
 form {
     display: flex;
     flex-direction: column;
 }
 
-label, input {
+input {
     margin: 10px 0;
+    height: 30px;
+    font-size: 20px;
 }
 
 input[type="submit"] {
@@ -36,8 +36,15 @@ input[type="submit"] {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    font-size: 25px;
+    height: fit-content;
 }
 
 input[type="submit"]:hover {
-    background-color: #0056b3;
+    color: black;
+    background-color: rgb(67, 228, 67);
+}
+
+#result{
+    font-size: 25px;
 }
